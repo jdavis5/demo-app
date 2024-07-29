@@ -1,0 +1,32 @@
+@use 'src/common/styles/variables/colors';
+
+.modal-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overscroll-behavior: contain;
+}
+
+.modal {
+    background-color: colors.$white;
+    color: colors.$black;
+    border-radius: 0.25em;
+    padding: 2em;
+    width: fit-content;
+    min-width: 40vw;
+    min-height: 40vh;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
