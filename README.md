@@ -15,7 +15,7 @@
 
 ## Introduction
 
-Demo is a functional subscription and account management system featuring tiered subscriptions and API key management which can be utilised to interact with a public API.
+Demo is a subscription and account management system, featuring tiered subscriptions and API key management which can be utilised to interact with a public and documented API.
 
 The project is a full stack and responsive web application built using the [Next.js](https://nextjs.org/) React framework, and is strongly typed throughout using [TypeScript](https://www.typescriptlang.org/). It utilises [tRPC](https://trpc.io/) for end-to-end type safety, and [Zod](https://zod.dev/) for input validation, including the validation of environment variables [at build time](#build-time-validation). It leverages [Prisma ORM](https://www.prisma.io/orm) to provide type-safe database interactions with [MongoDB](https://www.mongodb.com/). The public API is documented to [OpenAPI OAS3](https://swagger.io/specification/v3/) specification and its errors utilise [RFC 9457 - Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457).
 
