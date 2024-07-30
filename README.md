@@ -29,9 +29,9 @@ In order to demonstrate more underlying code the project purposely does not rely
 - Account removal (immediate and permanent for this application)
 - Account login and logout functionality
 - Account profile modification
-- 2fa account activation (with verification email)
-- 2fa password reset functionality (with verification email)
-- 2fa primary email modification (with verification email)
+- 2FA account activation (with verification email)
+- 2FA password reset functionality (with verification email)
+- 2FA primary email modification (with verification email)
 - Tiered subscription comparison and management 
 - API key generation and management
 - An interactive public API requiring key authentication
